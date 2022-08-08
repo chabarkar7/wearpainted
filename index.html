@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en"">
 <head><title>wearpainted</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="icon" type="image/x-icon" href="brandlogo1.png">
 </head>
 <style>
@@ -19,15 +20,15 @@ text-align:center;
 font-family:"Vedana", Tahoma, Trebuchet MS, Arial, sans-serif;
 font-size:40px;
 }
-span.n1
+button.n1
 {
-  position:fixed;
+  position: fixed;
   right: 120px;
   top: 100px;
 }
-span.n2
+button.n2
 {
-  position:fixed;
+  position: fixed;
   right: 30px;
   top: 100px;
 }
@@ -62,28 +63,27 @@ border:5px solid black;
 </ul>
 </tr>
 <tr>
-<td><a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank" colspan="4"><span class="n1"><button>VIEW COLLECTION</button></span></a></td>
+<td><a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank" colspan="4"><button class="n1">VIEW COLLECTION</button></a></td>
 </tr>
 <tr>
-<td><a href="payment.html" target="_blank" colspan="4"><span class="n2"><button>PAYMENT</button></span></a></td>
+<td><a href="payment.html" target="_blank" colspan="4"><span class="n2"><button class="n2">PAYMENT</button></span></a></td>
 </tr>
 </table>
-<div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true}'>
+    <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
       <div class="carousel-cell">
-        <img class="w3-image" src="tie-dye1.png">
+        <img class="w3-image" src="tie-dye1.jpg">
       </div>
       <div class="carousel-cell">
-        <img class="w3-image" src="tie-dye4.png">
+        <img class="w3-image" src="tie-dye2.jpg">
       </div>
       <div class="carousel-cell">
-        <img class="w3-image" src="tie-dye5.png">
+        <img class="w3-image" src="tie-dye3.jpg">
       </div>
       <div class="carousel-cell">
-        <img class="w3-image" src="tie-dye6.png">
+        <img class="w3-image" src="tie-dye4.jpg">
       </div>
     </div>
-
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
