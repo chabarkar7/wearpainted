@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="icon" type="image/x-icon" href="brandlogo1.png">
 </head>
+<nav>
 <style>
 body
 {
@@ -20,17 +21,13 @@ text-align:center;
 font-family:"Vedana", Tahoma, Trebuchet MS, Arial, sans-serif;
 font-size:40px;
 }
-button.n1
+div.n1
 {
-  position: fixed;
-  right: 120px;
-  top: 100px;
+position: sticky;
 }
-button.n2
+div.n2
 {
-  position: fixed;
-  right: 30px;
-  top: 100px;
+position: sticky;
 }
 media="screen">
 .carousel-cell {
@@ -63,10 +60,10 @@ border:5px solid black;
 </ul>
 </tr>
 <tr>
-<td><a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank" colspan="4"><button class="n1">VIEW COLLECTION</button></a></td>
+<td><a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank" colspan="4"><nav><div class="n1"><button class="n1">VIEW COLLECTION</button></div></nav></a></td>
 </tr>
 <tr>
-<td><a href="payment.html" target="_blank" colspan="4"><span class="n2"><button class="n2">PAYMENT</button></span></a></td>
+<td><a href="payment.html" target="_blank" colspan="4"><div class="n2"><button class="n2">PAYMENT</button></div></a></td>
 </tr>
 </table>
     <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
@@ -83,6 +80,7 @@ border:5px solid black;
         <img class="w3-image" src="tie-dye4.jpg">
       </div>
     </div>
+</nav>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
