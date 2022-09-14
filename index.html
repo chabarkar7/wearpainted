@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="icon" type="image/x-icon" href="brandlogo1.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body
 {
@@ -16,7 +17,7 @@ h2
 {
 color:black;
 text-align:center;
-font-family:"Vedana", Tahoma, Trebuchet MS, Arial, sans-serif;
+font-family: muli, Tahoma, Trebuchet MS, Arial, sans-serif;
 font-size:40px;
 }
 media="screen">
@@ -27,15 +28,16 @@ media="screen">
 }
 .carousel-cell.size-180 { width: 180px; }
 .carousel-cell.size-large { width: 75%; }
-hr.n3
+div.n0
 {
 background-color:#000000;
 border:10px solid black;
+text-align: center;
 }
-hr.n4
+span.s1
 {
-background-color:#000000;
-border:5px solid black;
+color: white;
+font-family: muli, Tahoma, Trebuchet MS, Arial, sans-serif;
 }
 div.n1
 {
@@ -46,10 +48,53 @@ li
 color: white;
 font-size: 20px;
 }
+span.s0
+{
+margin-left: auto;
+}
+div.d0
+{
+background-color:#000000;
+border:10px solid black;
+margin: 0rem 0;
+}
+
+
 </style>
 </head>
 <body>
-<hr class="n3"></hr>
+<div class="n0"><span class="s1">Shipping all over india!!</span></div>
+<!-- <div class="">
+<table>
+<Button type="image" id="se1" name="options" value="o1"><img src="threelines.png" height="20" 
+<select id="se1" name="options" value="o1">
+<a href="details.html" target="_blank"><options>Details</options></a>
+<a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank"><options>View collection</options></a>
+<a href="contactus.html" target="_blank"><options>ContactUs</options></a>
+<a href="payment.html" target="_blank"><options>Payment</options></a>
+</select>>
+</Button>
+</table></div>-->
+
+
+
+<!-- Top Navigation Menu -->
+<div class="d0">
+  <div id="myLinks">
+    <Button type="image" id="se1" name="options" value="o1"><img src="threelines.png" height="20" 
+<select id="se1" name="options" value="o1">
+<a href="details.html" target="_blank"><options>Details</options></a>
+<a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank"><options>View collection</options></a>
+<a href="contactus.html" target="_blank"><options>ContactUs</options></a>
+<a href="payment.html" target="_blank"><options>Payment</options></a>
+</select>>
+</Button>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa"></i>
+  </a>
+</div>
+
 <h2>Wearpainted</h2>
 <div class="n1">
 <nav div="Navbar">
@@ -84,6 +129,16 @@ font-size: 20px;
     </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </div>
 </body>
 </html>
