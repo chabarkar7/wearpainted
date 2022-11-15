@@ -5,65 +5,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="icon" type="image/x-icon" href="brandlogo1.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body
-{
-background-color: #AFD275;	
-}
-h2
-{
-color:black;
-text-align:center;
-font-family: muli, Tahoma, Trebuchet MS, Arial, sans-serif;
-font-size:40px;
-}
-media="screen">
-.carousel-cell {
-  width: 33%;
-  height: 50px;
-  margin-right: 10px;
-}
-.carousel-cell.size-180 { width: 180px; }
-.carousel-cell.size-large { width: 75%; }
-div.n0
-{
-background-color:#000000;
-border:10px solid black;
-text-align: center;
-}
-span.s1
-{
-color: white;
-font-family: muli, Tahoma, Trebuchet MS, Arial, sans-serif;
-}
-div.n1
-{
-background-color: #59253A;
-}
-li
-{
-color: white;
-font-size: 20px;
-}
-span.s0
-{
-margin-left: auto;
-}
-div.d0
-{
-background-color:#000000;
-border:10px solid black;
-margin: 0rem 0;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+<!-- background-color: #f0f5b8;	 -->
+<link
+      href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+<link rel="stylesheet" href="styles.css">
 
-
-</style>
 </head>
+
 <body>
-<div class="n0"><span class="s1">Shipping all over india!!</span></div>
+ 
+  <div class="header pb-1 md:p-3 ">
+    <img src="brandlogo1.png" class="h-12 logo  md:h-28 pl-3 pr-5 " alt="logo">
+    <!-- <img src="brandlogo1.png" class=" invisible md:visible h-24" alt="logo"> -->
+    <h2 class="md:text-6xl">Wearpainted</h2>
+    
+      <p class="invisible md:visible text-xl"> Shipping all over &nbsp <img src="flag.jpg" alt="flag" class="flag1"></p>
+      <!-- <img src="hello.png" alt="" style="height: 100px; width:350px"> -->
+      <!-- <img src="brandlogo1.png" class="logo" alt="logo"> -->
+
+  </div>
+<!-- <div class="n0"><span class="s1">Shipping all over india!!</span></div> -->
 <!-- <div class="">
 <table>
 <Button type="image" id="se1" name="options" value="o1"><img src="threelines.png" height="20" 
@@ -79,7 +55,7 @@ margin: 0rem 0;
 
 
 <!-- Top Navigation Menu -->
-<div class="d0">
+<!-- <div class="d0">
   <div id="myLinks">
     <Button type="image" id="se1" name="options" value="o1"><img src="threelines.png" height="20" 
 <select id="se1" name="options" value="o1">
@@ -93,26 +69,54 @@ margin: 0rem 0;
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa"></i>
   </a>
-</div>
+</div> -->
 
-<h2>Wearpainted</h2>
-<div class="n1">
-<nav div="Navbar">
-<table>
-<tr>
-<ul type="circle">
-    <td><a href="details.html" target="_blank"><li>Details</li></a></td>
-    <td><a href="contactus.html" target="_blank"><li>Contact Us</li></a></td>
-</ul>
-</tr>
-<tr>
-<ul type="circle">
-    <td><a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank"><li>View collection</li></a></td>
-    <td><a href="payment.html" target="_blank"><li>Payment</li></a></td>
-</ul>
-</tr>
-</table><br><br>
-</nav>
+<!-- <div class="n1">
+  <nav div="Navbar">
+    <table>
+      <tr> 
+        <ul type="circle">
+          <td><a href="details.html" target="_blank"><li>Details</li></a></td>
+          <td><a href="contactus.html" target="_blank"><li>Contact Us</li></a></td>
+        </ul>
+      </tr>
+      <tr>
+        <ul type="circle">
+          <td><a href="https://instagram.com/wearpainted_?igshid=YmMyMTA2M2Y=" target="_blank"><li>View collection</li></a></td>
+          <td><a href="payment.html" target="_blank"><li>Payment</li></a></td>
+        </ul>
+      </tr>
+    </table><br><br>
+  </nav> -->
+  <section class="hidden md:block ">
+    <div class="desktopsec py-5">
+
+      <a  class="" href="details.html" ><span class="underline">Details</span>ℹ</a>
+
+      <a class="" href="payment.html"><span class="underline">Payment</span> 💵</a>
+      <a  class="" href="https://www.instagram.com/wearpainted_/?igshid=YmMyMTA2M2Y%3D"><span class="underline">Contact</span> 📞</a> 
+
+      <a class="" href="contactus.html"><span class="underline">Collections </span>👕</a>
+
+
+    </div>
+  </section>
+
+  <div class="bg-black md:hidden" ><p class="shipping" style=" color:#fffedd; "  > Shipping  all over  &nbsp <img src="flag.jpg" alt="flag" class="flag relative "></p></div>
+  <!-- <p class="bg-black " >sdfg</p> -->
+  <section class="md:hidden">
+    <div >
+      <a  class="px-3" href="details.html" ><span class="underline">Details</span>ℹ</a>
+      <a class="pl-4" href="payment.html"><span class="underline">Payment</span> 💵</a>
+    </div>
+    <div class="pb-5">
+      <a  class="px-3" href="https://www.instagram.com/wearpainted_/?igshid=YmMyMTA2M2Y%3D"><span class="underline">Contact</span> 📞</a> 
+      <a class="" href="contactus.html"><span class="underline">Collections </span>👕</a>
+    </div>
+  </section>
+ 
+  
+
     <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
       <div class="carousel-cell">
         <img class="w3-image" src="tie-dye1.jpg">
